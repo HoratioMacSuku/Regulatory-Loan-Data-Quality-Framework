@@ -85,19 +85,13 @@ The validation engine enforces **three layers of control**:
 
 loan_data_validation_framework/
 
-config/ → YAML files defining validation rules & thresholds
-
-ingestion/ → Scripts for reading loan data from cloud or DBFS
-
-validation_engine/ → Core scripts for schema & rule validation
-
-reporting/ → Reliability reports and compliance summaries
-
-tests/ → Unit & integration test cases
-
-docs/ → Standard operating procedures and metadata
-
-main_pipeline.py → Orchestration script for full execution
+- config/ → YAML files defining validation rules & thresholds
+- ingestion/ → Scripts for reading loan data from cloud or DBFS
+- validation_engine/ → Core scripts for schema & rule validation
+- reporting/ → Reliability reports and compliance summaries
+- tests/ → Unit & integration test cases
+- docs/ → Standard operating procedures and metadata
+- main_pipeline.py → Orchestration script for full execution
 
 
 
